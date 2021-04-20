@@ -55,4 +55,4 @@
 - Referer - From which URI the request came from
 - Connection - need to keep open and wait till response comes or close
 
-__REF : [Click](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers) __
+> REF : [Click](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
