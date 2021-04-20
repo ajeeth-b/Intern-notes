@@ -1,5 +1,23 @@
 # HTTP/HTTPS
 
+## Methods
+
+- GET 
+	- To retrive specific data
+- PUT 
+	- At a specific resource replce the given data
+- POST
+	- Add new data or send some data to server to process
+- DELETE
+	 - Deletes the specified resource
+- HEAD
+	- Similar to get but without response body
+- PATCH
+	- To update small part of data
+- TRACE
+- OPTIONS
+- CONNECT
+
 ## Status codes
 
 - 100-199 - Informational
@@ -26,4 +44,15 @@
 	 - 501 - Invalid method
 	 - 502 - Bad Gateway
 	 - 503 - Service unavaiable
-	 
+
+## Headers
+### RequestHeader
+- Request type
+- User agent - information of system
+- Accept - type of response it will accept
+- Accept-Language - Language of data
+- Accept-Encoding - What type of compression
+- Referer - From which URI the request came from
+- Connection - need to keep open and wait till response comes or close
+
+__REF : [Click](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers) __
