@@ -44,7 +44,12 @@ class TestClass:
         assert hasattr(x, "check")
 ```
 
-[ref](https://docs.pytest.org/en/6.2.x/getting-started.html#group-multiple-tests-in-a-class)
+
+## -1. Create own explanation for failure of asserting
+[ref](https://docs.pytest.org/en/6.2.x/assert.html#defining-your-own-explanation-for-failed-assertions)
+
+
+All [ref](https://docs.pytest.org/en/6.2.x/getting-started.html#group-multiple-tests-in-a-class)
 
 
 
