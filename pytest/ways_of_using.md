@@ -48,4 +48,3 @@ class TestClass:
 
 
 
-[Entier Usage Docs](https://docs.pytest.org/en/6.2.x/usage.html)

@@ -12,3 +12,6 @@ executing tests in a specific module
 ## 2.  “quiet” reporting mode
 
 > pytest -q 
+
+
+[Entier Usage Docs](https://docs.pytest.org/en/6.2.x/usage.html)
