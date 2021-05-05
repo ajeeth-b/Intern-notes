@@ -29,6 +29,23 @@ def test_mytest():
         f()
 ```
 
+> using __pytest.raises__
+
+## 3. Assertinng Warnings
+
+```
+import warnings
+import pytest
+
+
+def test_warning():
+    with pytest.warns(UserWarning):
+        warnings.warn("my warning", UserWarning)
+```
+
+> using __pytest.warns__
+[ref](https://docs.pytest.org/en/6.2.x/warnings.html#warns)
+
 ## 3. Grouping multiple tests into class
 
 - Classname should start with __Test__
