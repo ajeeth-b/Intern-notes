@@ -47,3 +47,5 @@ class TestClass:
 [ref](https://docs.pytest.org/en/6.2.x/getting-started.html#group-multiple-tests-in-a-class)
 
 
+
+[Entier Usage Docs](https://docs.pytest.org/en/6.2.x/usage.html)
